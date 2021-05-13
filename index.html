@@ -2,9 +2,56 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>Meu Portfólio</title>
+    <title>Portfólio</title>
   </head>
   <body>
+    <style>
+
+      img {
+        border-radius: 45%;
+      }
+      h1 {        
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background-color: #99939F;
+      }
+      .description {
+        font-family: helvetica;
+      }
+      .origem {
+        text-decoration: underline;
+      }
+      .unix {
+        font-size: 22px;
+      }
+      .git {
+        font-size: 20px;
+      }
+      .html {
+        font-size: 16px;
+      }
+      .css {
+        font-size: 24px;
+      }
+      .botaogit {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-weight: 600;
+      }
+      .botao {
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: grey;
+        color: white;
+        font-weight: bolder;
+
+      }
+
+    </style>
 
     <ul>
       <li> <a href="#habilidades"> Habilidades Sociais </a> </li>
@@ -20,16 +67,16 @@
       Sobre mim:
     </h2>
     
-    <p> 
+    <p class="description"> <em>
       Estudante de desenvolvimento Web na Trybe 
-    </p>
+    </p></em>
 
       
     <h3>
       Nacionalidade:
     </h3>
     
-    <p> 
+    <p class="origem"> 
       Brasileiro. Natural do Rio de Janeiro, RJ.
     </p>
     
@@ -42,14 +89,15 @@
        
     <h4 id="técnicas">Habilidades Técnicas:</h4>
       <ul>
-        <li>Unix & Bash</li>
-        <li>Git e GitHub</li>
-        <li><strong>HTML</strong></li>
-        <li>CSS</li>
+        <li class="unix">Unix & Bash</li>
+        <li class="git">Git e GitHub</li>
+        <li class="html"><strong>HTML</strong></li>
+        <li class="css">CSS</li>
       </ul>
         
-    <a href="#minhafoto"> Link para Minha foto</a> <br>
-    <a href="https://www.jovemnerd.com.br" target="_blank"> Link para um blog nerd</a>      
+  
+    <a class="botaogit" href="https://github.com/matheuspor" target="_blank"> GitHub</a>    
+    <a class="botao" href="#minhafoto"> Subir para foto</a>      
   
   </body>
 </html>
