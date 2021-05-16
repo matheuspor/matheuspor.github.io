@@ -1,5 +1,13 @@
-img {
+#nome{
+  text-align: center;
+  text-decoration: underline;
+}
+#foto {
+  margin-right: 20px;
+  padding: 5px;
+  background-color: black;
   border-radius: 45%;
+  float: left;
 }
 h1 {        
   font-family: Arial, Helvetica, sans-serif;
@@ -8,22 +16,12 @@ body {
   background-color: #99939F;
 }
 .description {
+  padding-top: 10px;
+  height: 205px;
   font-family: helvetica;
 }
 .origem {
   text-decoration: underline;
-}
-.unix {
-  font-size: 22px;
-}
-.git {
-  font-size: 20px;
-}
-.html {
-  font-size: 16px;
-}
-.css {
-  font-size: 24px;
 }
 .botaogit {
   background-color: black;
@@ -39,4 +37,7 @@ body {
   background-color: grey;
   color: white;
   font-weight: bolder;
+}
+ul li:nth-child(odd) {
+  font-weight: bold;  
 }
