@@ -23,21 +23,28 @@ body {
 .origem {
   text-decoration: underline;
 }
+.divgit{    
+  height: 40px; 
+}
+
 .botaogit {
+  margin-right: 5px;
   background-color: black;
   color: white;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: bold;
 }
-.botao {
+
+.botao {    
   text-decoration: none;
   padding: 10px 15px;
   background-color: grey;
   color: white;
   font-weight: bolder;
 }
+
 ul li:nth-child(odd) {
   font-weight: bold;  
 }
