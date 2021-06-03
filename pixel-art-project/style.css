@@ -1,0 +1,39 @@
+#paintBlack {
+  background-color: black;
+}
+
+#paintRed {
+  background-color: red;
+}
+
+#paintGreen {
+  background-color: green;
+}
+
+#paintBlue {
+  background-color: blue;
+}
+
+#pixel-board {
+  border: 1px solid black;
+  display: table;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+.color {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+#clear-board {
+  margin-block: 1%;
+}
